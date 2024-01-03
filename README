@@ -1,0 +1,40 @@
+File: ex0a.c
+Merge two files
+ ========================================
+ Writen by: Rotem Kashani , id = 209073352 , login = rotemkash 
+	   Mahmood Jazmawy , id= 211345277, login=Mahmoodja
+This program will take read 3 files from the user by the following order:
+first file - <input file1>, second file - <input file2>, third file -
+<output file>. the program than will merge the two input 
+files and print the names with the grades given in both files in
+ alphabetic order into the given output file.
+Compile: gcc ex0a.c -Wall -o ex0a
+
+Run: ex0a
+
+Input: 3 files from the user by the following order:
+first file - <input file1>, second file - <input file2>, 
+third file - <output file>.
+
+Output: the names with the grades given in both files in
+ alphabetic order into the given output file
+
+
+File: ex0b.c 
+Split sentences to words
+ ========================================
+ Writen by: Rotem Kashani , id = 209073352 , login = rotemkash 
+	   Mahmood Jazmawy , id= 211345277, login=Mahmoodja
+
+The program receives the name of a file using the arguments vector.
+The file will include a natural number indicating how many sentences 
+the file includes, and then the series of sentences and dividing the sentences 
+into words with each word in a line alone
+
+Compile: gcc ex0b.c -Wall -o ex0b
+
+Run: ex0b
+
+Input: file using the arguments vector. the file include a natural number that say how many sentences the file includes and the series of sentences.
+
+Output:the sentence when it is divided into words, each word in a line separately.
